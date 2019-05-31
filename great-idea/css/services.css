@@ -166,14 +166,24 @@ h1, h2, h3, h4, h5 {
 
 
 
-.banner{
-    width:100%;;
-    background-size: cover;
+.serv{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    line-height: 1.3;
 
+}
+.serv .banner{
+    margin: 20px 0;
+}
+.servP{
+    border-bottom: 1px solid black;
+    padding-bottom: 40px;
+    margin-bottom: 20px;
 }
 
 h1{
-    font:40px;
+    font-size:40px;
 }
 
 .main-content{
